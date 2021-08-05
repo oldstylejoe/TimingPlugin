@@ -6,9 +6,14 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		072357B026BB56ED0074C5C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072357AF26BB56ED0074C5C8 /* main.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		072357A626BB376E0074C5C8 /* precisetime.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = precisetime.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		072357A926BB376E0074C5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072357AF26BB56ED0074C5C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +30,7 @@
 		0723579D26BB376E0074C5C8 = {
 			isa = PBXGroup;
 			children = (
+				072357AF26BB56ED0074C5C8 /* main.cpp */,
 				072357A826BB376E0074C5C8 /* precisetime */,
 				072357A726BB376E0074C5C8 /* Products */,
 			);
@@ -112,6 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072357B026BB56ED0074C5C8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +239,10 @@
 		072357AD26BB376E0074C5C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7V8USG3TBA;
 				INFOPLIST_FILE = precisetime/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blt.precisetime;
@@ -246,8 +255,10 @@
 		072357AE26BB376E0074C5C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7V8USG3TBA;
 				INFOPLIST_FILE = precisetime/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blt.precisetime;
